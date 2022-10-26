@@ -1,5 +1,5 @@
 describe('Verify create regular appointment successfully', async () => {
-    it ('should validate page title', async ()=>{
+    it ('check create appointment', async ()=>{
         await browser.url("https://internship-qa-2.cybozu-dev.com/g/")
         const locatorOfLoginPage = {
             usernameInputField: '//*[@id="username-:0-text"]',
